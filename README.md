@@ -57,6 +57,6 @@ This app uses the following React Native core components:
 - Screenshot 3: Error handling
 
 
-![alt text](Screenshots\main.png.png)
-![alt text](Screenshots\add.png.png)
-![alt text](Screenshots\error.png.png)
+![alt text](Screenshots\main.png)
+![alt text](Screenshots\add.png)
+![alt text](Screenshots\error.png)
