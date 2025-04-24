@@ -26,7 +26,7 @@ This tool is great for home cooks, students, or anyone tracking what's going int
 
 ---
 
-## ⚒ Core Components Used
+## Core Components Used
 
 This app uses the following React Native core components:
 
