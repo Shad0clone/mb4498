@@ -1,62 +1,75 @@
-# ChefList
+# Gallery Profile App (Made with React Native)
 
-ChefList allows users to manage ingredients for recipes by tracking quantities and total calories — perfect for anyone organizing meal plans or grocery prep.
+This is a mobile app made using **React Native**. It lets you look at a gallery of photos, view them in full screen, and also create and save your profile (name, email, etc.) which will stay saved even if you close the app.
 
 ---
 
-## Design and Purpose
+## What This App Does
 
-**ChefList** is designed to help users:
-- Add ingredients and specify quantities
-- View a list of all ingredients added
-- Automatically calculate total calories
-- Remove ingredients from the list
-
-This tool is great for home cooks, students, or anyone tracking what's going into their meals.
+- Shows a list of pictures in a nice layout
+- Lets you click on a picture to see it bigger
+- Has a profile screen where you can enter your name, email, etc.
+- You can favorite pictures and see just your favorites
+- Saves everything on your phone so it stays even after closing the app
 
 ---
 
 ## Features
 
-- Add ingredients with manual quantity entry
-- Display list of all ingredients added
-- Show total calories at the top of the app
-- Remove ingredients individually
-- Validates input to prevent empty or invalid data
+- Gallery screen with thumbnail photos and titles
+- Full image viewer with a "favorite" heart button
+- Profile screen with:
+  - Text fields for name and email
+  - Gender options using radio buttons
+  - Country dropdown
+  - Notifications toggle (on/off switch)
+  - Save button that stores info permanently on your phone
+- Uses popular UI components for a clean design
 
 ---
 
-## Core Components Used
+## Tools Used
 
-This app uses the following React Native core components:
-
-- `View` – for layout containers
-- `Text` – for titles, labels, and item display
-- `TextInput` – for user entry of ingredients and quantity
-- `TouchableOpacity` – for interactive buttons
-- `FlatList` – to render the scrollable list of ingredients
-- `Alert` – for validation error prompts
-- `StyleSheet` – for styling
+- React Native (with Expo)
+- React Navigation (to move between screens)
+- React Native Paper (for buttons, text inputs, etc.)
+- AsyncStorage (to save profile and favorites data)
+- Expo Go app for testing
 
 ---
 
-## Basic Use Instructions
+## Screens in the App
 
-1. Type an **ingredient** (e.g., "Tomato")
-2. Type the **quantity** (e.g., "2")
-3. Tap **"Add Ingredient"** to add it to the list
-4. See it appear in the list below with quantity like `×2`
-5. View the **total calorie count** at the top
-6. Tap **Delete** to remove any item from the list
+### 1. Gallery Screen
+- Shows list of images
+- Tap an image to see it bigger
+- You can filter to show only favorite images
+
+### 2. Picture Viewer Screen
+- Shows full-size image and its title
+- Lets you favorite or unfavorite the picture
+
+### 3. Profile Screen
+- Input name and email
+- Choose gender
+- Pick a country
+- Turn on/off notifications
+- Save your details — they stay saved even after closing the app
 
 ---
 
 ## Screenshots
-- Screenshot 1: Initial empty screen
-- Screenshot 2: List with added ingredients
-- Screenshot 3: Error handling
 
+### Gallery Screen
+![Gallery Screen](screenshots/galleryScreen.png)
+*Shows thumbnails and a favorites toggle*
 
-![alt text](Screenshots/main.png)
-![alt text](Screenshots/add.png)
-![alt text](Screenshots/error.png)
+### Picture Viewer Screen
+![Picture Viewer](screenshots/pictureScreen.png)
+*Shows full-size image and favorite button*
+
+### Profile Screen
+![Profile Screen](screenshots/ProfileScreen.png)
+*Shows inputs for name, email, gender, country*
+
+---
