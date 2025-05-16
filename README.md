@@ -66,19 +66,19 @@ This is a mobile app made using **React Native**. It lets you look at a gallery 
 *Shows thumbnails and a favorites toggle*
 
 ### Picture Viewer Screen
-![Picture Viewer](Screenshots/Picturescreen.png)
+<img src="Screenshots/Picturescreen.png" alt="Picture Screen" width="400"/>
 *Shows full-size image and favorite button*
 
 ### Profile Screen
-![Profile Screen](Screenshots/ProfileScreen.png)
+<img src="Screenshots/ProfileScreen.png" alt="Profile Screen" width="400"/>
 *Shows inputs for name, email, gender, country*
 
 
 ### Profile Details Saved
-![Profile Saved](Screenshots/ProfileScreenDetails.png)
+<img src="Screenshots/ProfileScreenDetails.png" alt="Profile Saved" width="400"/>
 *Shows profile values still saved after reopening the app*
 
 ### Error Handling
-![Error Handling](Screenshots/Errorhandling.png)
+<img src="Screenshots/Errorhandling.png" alt="Error Handling" width="400"/>
 *Shows alert message if required fields are empty*
 ---
