@@ -61,7 +61,7 @@ This is a mobile app made using **React Native**. It lets you look at a gallery 
 ## Screenshots
 
 ### Gallery Screen
-![Gallery Screen](Screenshots/Galleryscreen.png)
+![alt text](Screenshots/Galleryscreen.png)
 *Shows thumbnails and a favorites toggle*
 
 ### Picture Viewer Screen
