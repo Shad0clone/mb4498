@@ -74,6 +74,75 @@ The app also uses **PHP server APIs** and a **MySQL database** to store the book
 
 ---
 
+## Server APIs
+
+This app uses PHP-based REST APIs to interact with a MySQL database. All APIs use JSON for requests and responses.
+
+### Add Book API
+
+Endpoint: http://10.250.60.106/BookCircleBackend/addBook.php
+
+Method: POST
+
+Request Parameters (JSON body):
+{
+  "title": "Book Title",
+  "friend": "Friend Name",
+  "dueDate": "MM-DD-YYYY"
+}
+
+Example Request:
+{
+  "title": "Harry Potter",
+  "friend": "John Doe",
+  "dueDate": "08-01-2025"
+}
+
+Example Response:
+{ "status": "success" }
+
+
+---
+
+### Get Books API
+
+Endpoint: http://10.250.60.106/BookCircleBackend/getBooks.php
+
+Method: GET
+
+Request Parameters: None
+
+Example Response:
+
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Harry Potter",
+      "friend": "Ashiq",
+      "dueDate": "2025-08-01"
+    },
+    {
+      "id": 2,
+      "title": "Twlight Saga",
+      "friend": "Rohit",
+      "dueDate": "2025-09-15"
+    }
+  ]
+}
+
+
+### Delete Book API 
+
+Endpoint: http://10.250.60.106/BookCircleBackend/deleteBook.php
+
+Method: POST
+
+Request Parameters (JSON body): { "id": 1 }
+
+Example Response: { "status": "success" }
+
+
 ## Screenshots
 
 ### Add Book Screen
