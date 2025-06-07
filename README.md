@@ -78,46 +78,46 @@ The app also uses **PHP server APIs** and a **MySQL database** to store the book
 
 ### Add Book Screen
 
-<img src="screenshots/add_book_screen.png" alt="Add Book Screen" width="400"/>
+<img src="Screenshots/add_book_screen.png" alt="Add Book Screen" width="400"/>
 
 ---
 
 ### View Books Screen
 
-<img src="screenshots/view_books_screen.png" alt="View Books Screen" width="400"/>
+<img src="Screenshots/view_books_screen.png" alt="View Books Screen" width="400"/>
 
 ---
 
 ### API - Get Books
 
-<img src="screenshots/api_get_books.png" alt="Get Books API" width="400"/>
+<img src="Screenshots/api_get_books.png" alt="Get Books API" width="400"/>
 
 ---
 
 ### Database Table (Books)
 
-<img src="screenshots/database_books_table.png" alt="Books Table" width="400"/>
+<img src="Screenshots/database_books_table.png" alt="Books Table" width="400"/>
 
 ---
 
 ### Database Schema
 
-<img src="screenshots/database_schema.png" alt="Database Schema" width="400"/>
+<img src="Screenshots/database_schema.png" alt="Database Schema" width="400"/>
 ---
 
 ### SQL SELECT Query
 
-<img src="screenshots/database_sql_select.png" alt="SQL SELECT" width="400"/>
+<img src="Screenshots/database_sql_select.png" alt="SQL SELECT" width="400"/>
 
 ---
 
 ### Book Added Alert
-<img src="screenshots/book_added.png" alt="Book Added" width="400"/>
+<img src="Screenshots/book_added.png" alt="Book Added" width="400"/>
 
 ---
 
 ### Book Deleted Alert
-<img src="screenshots/book_deleted.png" alt="Book Deleted" width="400"/>
+<img src="Screenshots/book_deleted.png" alt="Book Deleted" width="400"/>
 
 ---
 
