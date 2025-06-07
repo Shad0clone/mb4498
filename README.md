@@ -7,7 +7,12 @@ You can add books, view the list of borrowed books, and delete them once they ar
 The app also uses **PHP server APIs** and a **MySQL database** to store the book records.
 
 ---
+## Team Members
 
+- **Mohamed Ashiq Basheer Ahamed**
+- **Rohit Varma Nadimpalli**
+
+---
 ## What This App Does
 
 - Lets you add books you’ve lent out (title, friend’s name, due date)
